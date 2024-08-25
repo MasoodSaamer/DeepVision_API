@@ -26,8 +26,8 @@ If you simply plan on just using the API without build the training model, testi
 ### Generating your .pth file
 
 Ensure you have a virtual python environment created and activated as all the training model files will be stored there.
-First you will need to run the main.py to generate the cifar10_resenet18.pth inside the models/ folder and the data batches inside the data/ folder. The .pth file will be the bases for the training model to be used by the app.py file later. Running the app.py will generate the .pth file while also stating its accuracy in the logs. You can tweak the main.py file accordingly (changing the epoch iterations, using a different dataset instead of cifar10, updating num_workers etc)
-   - Run the following command to generate your cifar10_resenet18.pth file. Ensure your are in your virtual environment so that the files are only uploaded within the virtual python environment and dont affect it globally:
+First you will need to run the main.py to generate the .pth inside the models/ folder and the data batches inside the data/ folder. The .pth file will be the bases for the training model to be used by the app.py file later. Running the main.py will generate the .pth file while also stating its accuracy in the logs. You can tweak the main.py file accordingly (changing the epoch iterations, using a different dataset instead of cifar10, updating num_workers etc)
+   - Run the following command to generate your .pth file(in my case its called cifar10_resenet18.pth). Ensure your are in your virtual environment so that the files are only uploaded within the virtual python environment and dont affect it globally:
      ```bash
      python main.py
      ```
