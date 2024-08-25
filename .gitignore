@@ -37,6 +37,13 @@ node_modules/
 # Ignore the website folder
 website/
 
+# Ignore data and models directories
+data/
+models/
+
+# Ignore the .gitattributes file
+.gitattributes
+
 # Ignore MacOS system files
 *.AppleDouble
 .LSOverride
