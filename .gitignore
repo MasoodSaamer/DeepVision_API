@@ -1,9 +1,14 @@
 # Ignore virtual environment folder
 venv/
+env/
+.virtualenv/
 
 # Ignore Python cache files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.pdb
 
 # Ignore environment variable files
 .env
@@ -11,3 +16,30 @@ __pycache__/
 # Ignore other system files
 .DS_Store
 Thumbs.db
+
+# Ignore IDE and editor configuration files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+*.orig
+
+# Ignore node_modules if applicable (e.g., if using React or Node.js)
+node_modules/
+# Ignore the website folder
+website/
+
+# Ignore MacOS system files
+*.AppleDouble
+.LSOverride
+
+# Ignore Windows system files
+$RECYCLE.BIN/

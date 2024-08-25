@@ -1,0 +1,37 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+*.tmp
+
+# Ignore local virtual environments
+venv/
+env/
+.virtualenv/
+
+# Ignore data and models that are not needed in the Docker image
+#data/
+#models/
+#!models/cifar10_resnet18.pth  # Exclude this line if you need to keep this model file
+
+# Ignore Docker files
+Dockerfile
+.dockerignore
+
+# Ignore Git repository
+.git
+.gitignore
+
+# Ignore any IDE configurations or settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore any node_modules if they exist
+node_modules/
